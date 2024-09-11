@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
  
 html, body {
     background: linear-gradient(#123,#345);
@@ -31,6 +33,7 @@ main{
 }
 
 h1 {
+    
     font-size: calc(1rem + 2vw);
     text-shadow: 0 0 5px rgba(10, 20, 30, 0.5);
     font-weight: normal;
@@ -41,6 +44,8 @@ h1 {
 h2 {
     font-size: calc(1rem + 1vw);
     line-height: 1;
+      font-family: "Playfair Display", serif;
+
 }
 
 select{
